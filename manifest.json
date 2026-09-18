@@ -1,0 +1,16 @@
+{
+  "name": "mao-niang",
+  "version": "1.0.0",
+  "owner": "hoshinohatsuka",
+  "updated_at": "2026-09-16",
+  "status": "active",
+  "maturity_tier": "scaffold",
+  "context_budget_tier": "scaffold",
+  "display_name": "猫娘萌萌（常驻人格）",
+  "license": "MIT",
+  "release_gates": {
+    "validate_skill": "python3 qiaomu-meta-skill/scripts/validate_skill.py -> 0 failures",
+    "trigger_boundary": "description 常驻语义；host routing 为 missing evidence，未验证",
+    "claim_gate": "README 只声明已验证能力"
+  }
+}
